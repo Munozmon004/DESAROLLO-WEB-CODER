@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* display: esto es una propiedad que cambia el estado natural de una etiqueta*/
+
+nav ul li{
+    display: inline;
+    gap: 1.875rem;
+}
+
+span{
+    display: block;
+}
+
+.header-index{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1.875rem;
+
+}
+
+.contenedor-cards{
+    display: flex;
+    width: 100%;
+    height: 37.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightpink;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.card{
+    width: 12.5rem;
+    height: 18.75rem;
+    background-color: rgb(211, 211, 211, 0.209);
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0 , 0.408);
+    margin: .3125rem;
+
+}
+
+.card .card-img{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(158, 159, 159 , 0.262);
+}
+
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-0{
+    background-color: rgba(rgb(155, 165, 78), green, blue, alpha);
+    align-self: flex-start;
+}
+.card-1{
+    background-color: rgba(rgb(188, 80, 195), green, blue, alpha);
+    align-self: flex-start;
+}
+
+.card-2{
+    background-color: rgba(rgb(209, 92, 92), green, blue, alpha);
+    align-self: flex-start;
+}
+
+.card-3{
+    background-color: rgba(rgb(130, 210, 69), green, blue, alpha);
+    align-self: flex-start;
+}
+.card-4{
+    background-color: rgba(rgb(89, 80, 223), green, blue, alpha);
+    align-self: flex-start;
+}
+
