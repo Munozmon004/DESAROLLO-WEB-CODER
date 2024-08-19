@@ -281,65 +281,7 @@ h4{
         overflow:hidden;
     }
 
-    .b-busca{
-        padding-top: 90px;
-        padding-bottom: 29px;
-        background-color: white;
-        width: 100%;
-    }
-    
-    .nav-items{
-        width: 100%;
-        z-index: 999;
-        position: fixed;
-        font-size: 55px;
-        font-weight: 500;
-        margin-bottom: 90px;
-        text-align: center;
-        background-color: white;
-    } 
-    
-    .search{
-        width: 450px;
-        display: flex;
-        margin-left: 15px;
-        height: 65px;
-    }
-    
-    .search-box{
-        width: 60%;
-        height: 55px;
-        padding: 1px;
-        border-top-left-radius:100px;
-        border-bottom-left-radius: 100px;
-        text-transform: capitalize;
-        border: 1px solid black;
-        background: none;
-        color: #090000;
-        outline: none;
-        font-size: 25px;
-    }
-    
-    .search-btn{
-        width: 15%;
-        height: 55px;
-        padding: 1px 2px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        background: #383838;
-        color: #fff;
-        text-transform: capitalize;
-        font-size: 15px;
-        border-top-right-radius: 90px;
-        border-bottom-right-radius: 90px;
-    }
-    
-    search-box::placeholder{
-        color: #383838;
-        font-size: 25px;
-    } 
-}
+}    
 
 /* Screen Iphone 12pro */ 
 
